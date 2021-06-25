@@ -7,7 +7,7 @@ import './index.css';
     render() {
       return (
         <div>
-            Hello World
+            Hello Clement! Soon you'll have a personnal reddit
         </div>
       );
     }

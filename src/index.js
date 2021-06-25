@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Nav} from './nav.js'
 import './index.css';
 
 
   class Hello extends React.Component {
     render() {
       return (
-        <div>
+        
+        <html>
+          <Nav />
+          <div>
             Hello Clement! Soon you'll have a personnal reddit
-        </div>
+          </div>
+        </html>
       );
     }
   }
@@ -16,6 +21,7 @@ import './index.css';
   // ========================================
   
   ReactDOM.render(
+
     <Hello />,
     document.getElementById('root')
   );

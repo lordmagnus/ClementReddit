@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Nav} from './nav.js'
+import {BoxContainer} from './boxContainer.js'
 import './index.css';
 
 
@@ -13,6 +14,7 @@ import './index.css';
           <div>
             Hello Clement! Soon you'll have a personnal reddit
           </div>
+          <BoxContainer />
         </html>
       );
     }

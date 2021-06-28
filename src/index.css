@@ -1,8 +1,23 @@
 @media only screen and (max-width:480px){
   .box {
-    border-style :2px solid black;
     background-color:ivory;
+    width:fit-content;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+  }
+  .boxChannel {
     width: fit-content;
+
+    
+  }
+  .boxImage {
+    width: 100%;
+  }
+
+  .boxTitle {
+    justify-self: center;
   }
 }
   nav {
@@ -13,7 +28,7 @@
 }
 
   .box {
-  border-style :2px solid black;
+  border :2px solid black;
   background-color:ivory;
 }
 

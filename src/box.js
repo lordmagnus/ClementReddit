@@ -1,12 +1,12 @@
 import React from 'react';
 
-const data = ["r/Channel","Title","https://homepages.cae.wisc.edu/~ece533/images/airplane.png","num comm"]
+//const data = ["r/Channel","Title","https://homepages.cae.wisc.edu/~ece533/images/airplane.png","num comm"]
 
 export class Box extends React.Component {
-  constructor(props) {
+  /*constructor(props) {
     super(props);
 
-  }
+  }*/
     render() {
       const post = this.props.post;
         return (

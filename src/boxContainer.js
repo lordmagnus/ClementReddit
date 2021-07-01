@@ -15,10 +15,10 @@ export default function BoxContainer()  {
         (result) => {
          // setIsLoaded(true);
           setItems(result);
-          console.log(result)
+         /* console.log(result)
           console.log(result.data.children)
           console.log("coucou")
-          //console.log(items.data.children)
+          //console.log(items.data.children)*/
         },
         // Note: it's important to handle errors here
         // instead of a catch() block so that we don't swallow

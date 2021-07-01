@@ -25,11 +25,11 @@ export default function Post () {
         (result) => {
          // setIsLoaded(true);
           setItems(result);
-          items = result
+         // items = result
          /* console.log(result)
           console.log(result.data.children)
           console.log("coucou")*/
-          console.log(items)
+         // console.log(items)
         },
         // Note: it's important to handle errors here
         // instead of a catch() block so that we don't swallow
@@ -39,7 +39,7 @@ export default function Post () {
           setError(error);
         }
       ).finally(() => { setIsLoaded(true)})
-  },[] )
+  },[location] )
 
   if (error) {
     return <div>Error: {error.message}</div>;
